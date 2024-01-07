@@ -16,6 +16,16 @@ No need to set a postion variable(int start), but use a boolean[] to memorize da
             temp.remove(temp.size() - 1);
         }
     }
+leetcode 47:
+Input: nums = [1,1,2]
+Output:
+[[1,1,2],
+ [1,2,1],
+ [2,1,1]]
 
+ key step: avoid repetitve number
+  if (i != 0 &&  nums[i] == nums[i - 1] && !isUsed[i - 1]) {
+                continue;
+            }
 
 
