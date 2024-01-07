@@ -25,7 +25,7 @@ Output:
 
  key step: avoid repetitve number
   if (i != 0 &&  nums[i] == nums[i - 1] && !isUsed[i - 1]) {
-                continue;
-            }
+      continue;
+  }
 
 
