@@ -29,3 +29,6 @@ Output:
   }
 
 
+# 单调栈
+take care of :
+index or number was push into stack, which must be consistent
