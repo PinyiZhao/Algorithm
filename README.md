@@ -42,7 +42,6 @@ public class WaterPipes {
     private static final int BLOCKED = 0;
     private static final int CLEAN = 1;
     private static final int POLLUTED = 2;
-
     public static void main(String[] args) {
         int[][] matrix = {
             {1, 2, 1},
